@@ -1,0 +1,407 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --blackcolor: #07085d;
+    --redcolor: #e0434f;
+    --redblack: #983d5f;
+    --linerColor: linear-gradient(var(--redblack), var(--redcolor));
+    --fontOurfelid : 2.7rem;
+    --fontParahraph : 1.2rem;
+
+}
+.contan .head{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/banner/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head .txt h1{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+}
+@media (max-width: 1000px){
+    .head .txt h1{
+        font-size: 3.5rem;
+    }
+}
+
+/* end head */
+/* start seaction services */
+.services{
+    width: 100%;
+}
+.services .ser{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.services .ser h1{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.services .ser p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.55);
+}
+hr{
+    width: 25%;
+    margin: auto;
+    border: 5px solid red;
+    margin-bottom: 70px;
+    border-radius: 10px;
+}
+@media (max-width: 1000px){
+    .services .ser{
+        width: 80%;
+    }
+}
+@media (max-width: 500px){
+    .services .ser{
+        width: 90%;
+    }
+    .services .ser h1{
+        font-size: 2.4rem;
+    }
+    hr{
+        width: 40%;
+    }
+}
+
+
+/* under line */
+.under{
+    width: 15%;
+    margin: auto;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(var(--redcolor), var(--redblack));
+    margin-top: 40px;
+}
+/* end under line */
+
+/* start about section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about .our{
+    text-align: center;
+}
+.about .our h1{
+    font-size: var(--fontOurfelid);
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+.about .our p{
+    font-size: var(--fontParahraph);
+    color: rgb(112, 112, 112);
+    font-weight: 500;
+}
+.about .img{
+    margin-top: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .img .col1{
+    background-color: rgb(250, 247, 247);
+    text-align: center;
+    width: 25%;
+}
+.about .img .col1:hover{
+    box-shadow: 0px 7px 20px rgb(221, 221, 221);
+}
+.about .img .col1 h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .about .img .col1 p{
+    font-weight: 600;
+    color: rgb(101, 101, 101);
+    margin-bottom: 20px;
+    font-style: italic;
+ }
+ @media (max-width: 1600px){
+    .about .img{
+        width: 80%;
+    }
+}
+@media (max-width: 1300px){
+    .about .img{
+        width: 90%;
+    }
+}
+@media (max-width: 950px){
+    .about .img{
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .about .img .col1{
+        width: 50%;
+    }
+    .about .our p{
+        font-size: 1rem;
+    }
+    .under{
+        width: 25%;
+    }
+}
+@media (max-width: 850px){
+    .about .img{
+        flex-wrap: wrap;
+        width: 83%;
+    }
+    .about .img .col1{
+        width: 50%;
+    }
+    .about .our p{
+        font-size: 1rem;
+    }
+    .under{
+        width: 25%;
+    }
+}
+@media (max-width: 700px){
+    .about .img{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .about .img .col1{
+        width: 50%;
+    }
+    .about .our p{
+        font-size: 1rem;
+    }
+    .under{
+        width: 25%;
+    }
+}
+@media (max-width: 600px){
+    .about .img{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .about .img .col1{
+        width: 100%;
+    }
+    .about .our p{
+        font-size: .8rem;
+        width: 95%;
+    }
+    .under{
+        width: 25%;
+    }
+}
+
+/* start a section who are */
+.who{
+    background-image: url(../../images/backgrounds/about-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 78vh;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.who .txt{
+    width: 35%;
+    margin-left: 15%;
+    color: white;
+}
+.who .txt h1{
+    font-size: var(--fontOurfelid);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.who .txt p{
+    color: rgb(173, 173, 173);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.who .txt a{
+    text-decoration: none;
+    background: var(--linerColor);
+    padding: 13px 35px 13px 35px;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+@media (max-width: 1600px){
+    .who .txt{
+        margin-left: 15%;
+    }
+}
+@media (max-width: 1200px){
+    .who .txt{
+        margin-left: 10%;
+        width: 40%;
+    }
+}
+@media (max-width: 1000px){
+    .who .txt{
+        margin-left: 5%;
+        width: 45%;
+    }
+}
+@media (max-width: 600px){
+    .who .txt{
+        margin-left: 4%;
+        width: 60%;
+    }
+    .who .txt h1{
+        font-size: 2.2rem;
+    }
+}
+/* end a section who are */
+.hhh{
+    width: 100%;
+    text-align: center;
+}
+.hhh h1{
+    font-size: var(--fontOurfelid);
+    font-weight: bold;
+    color: black;
+}
+
+/* start a section work */
+.work{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work .work1{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.work .work1 h1{
+    font-size: var(--fontOurfelid);
+    font-weight: bold;
+    color: black;
+}
+.work .work2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.work .work2 .col2{
+    width: 33.333%;
+}
+.work .work2 .col2 .ig1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work .work2 .col2 .ig1 .hidd{
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    background-color: var(--blackcolor);
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: none;
+}
+.work .work2 .col2 .ig1:hover .hidd{
+    display: flex;
+}
+.work .work2 .col2 .ig1 .hidd a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.work .work2 .col2 .ig1 .hidd a:hover{
+    color: #e0434f;
+}
+@media (max-width: 1000px){
+    .work .work2 .col2 .ig1 .hidd{
+        top: 70%;
+    }
+    .work .work2{
+        flex-wrap: wrap;
+    }
+    .work .work2 .co1{
+        width: 50%;
+    }
+    .work .work2 .co2{
+        width: 50%;
+    }
+    .work .work2 .co3{
+        display: flex;
+        width: 100%;
+    }
+    .under{
+        width: 25%;
+    }
+}
+@media (max-width: 700px){
+    .work .work2 .col2 .ig1 .hidd{
+        top: 80%;
+    }
+    .work .work2{
+        flex-wrap: wrap;
+    }
+    .work .work2 .co1{
+        width: 100%;
+    }
+    .work .work2 .co2{
+        width: 100%;
+    }
+    .work .work2 .co3{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .under{
+        width: 27%;
+    }
+    .work .work1 h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 600px){
+    .work .work2 .col2 .ig1 .hidd{
+        top: 62%;
+    }
+    .work .work1 h1{
+        font-size: 2.3rem;
+    }
+}
+/* end a section work */
+
+

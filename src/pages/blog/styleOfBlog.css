@@ -1,0 +1,38 @@
+
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/backgrounds/page-title.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    margin-bottom: 100px;
+}
+.head h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+}
+@media (max-width: 920px){
+    .head h1{
+        font-size: 4rem;
+    }
+}
+
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.news .list{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}

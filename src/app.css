@@ -1,0 +1,16 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --blackcolor: #07085d;
+    --redcolor: #e0434f;
+    --redblack: #983d5f;
+    --linerColor: linear-gradient(var(--redblack), var(--redcolor));
+    --fontOurfelid : 2.7rem;
+    --fontParahraph : 1.2rem;
+
+}

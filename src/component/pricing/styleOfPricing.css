@@ -1,0 +1,140 @@
+
+
+/* start a section pricing */
+.price{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.price .pri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.price .pri h1{
+    font-size: var(--fontOurfelid);
+    font-weight: bold;
+    color: black;
+}
+.price .table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+.price .table .col3{
+    width: 31%;
+    background-image: url(../../images/backgrounds/1.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.price .table .col3 h3{
+    font-weight: bold;  
+}
+.price .table .col3 span{
+    font-weight: 500;
+    color: rgb(186, 186, 186);
+    margin-bottom: 20px;
+}
+.price .table .col3 h1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.price .table .col3 h1 span{
+    font-size: 2rem;
+    font-weight: bold;
+    background: none;
+    color: white;
+}
+.price .table .col3 p{
+    font-weight: 600;
+}
+.price .table .col3 button{
+    margin-top: 30px;
+    padding: 15px;
+    width: 60%;
+    background: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.price .table .col3 button:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width: 1400px){
+    .price .table{
+        width: 85%;
+    }
+    .price .table{
+        width: 90%;
+    }
+}
+@media (max-width: 1300px){
+    .price .table{
+        width: 90%;
+    }
+}
+@media (max-width: 1100px){
+    .price .table{
+        width: 93%;
+    }
+    .price .table .col3{
+        width: 32%;
+    }
+}
+@media (max-width: 900px){
+    .price .table{
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .price .table .col3{
+        width: 47%;
+        margin-bottom: 30px;
+    }
+    .price .pri h1{
+        font-size: 2.4rem;
+    }
+}
+@media (max-width: 800px){
+    .price .table{
+        width: 91%;
+        flex-wrap: wrap;
+    }
+    .price .table .col3{
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .price .pri h1{
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 650px){
+    .price .table{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .price .table .col3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .price .pri h1{
+        font-size: 2rem;
+    }
+}

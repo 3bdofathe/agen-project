@@ -1,0 +1,175 @@
+
+
+.footer {
+    width: 100%;
+    background-image: url(../../images/backgrounds/map.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #07085d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.footer .foot{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 80px;
+}
+.footer .foot .foot1{
+    width: 47%;
+}
+.footer .foot .foot2{
+    width: 47%;
+    background-color: white;
+    padding: 35px 30px 30px 30px;
+    color: black;
+}
+.footer .foot .foot2 h4{
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer .foot .foot2 input{
+    border: none;
+    border-bottom: 1px solid rgb(199, 191, 191);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer .foot .foot2 textarea{
+    border: none;
+    border-bottom: 1px solid rgb(199, 191, 191);
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.footer .foot .foot2 #sub{
+    padding: 12px 45px 12px 45px ;
+    border: none;
+    background: var(--linerColor);
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+.footer .foot .foot1 .foo{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer .foot .foot1 .foo .foo1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.footer .foot .foot1 .foo .foo1 h4{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footer .foot .foot1 .foo .foo1 a{
+    color: rgb(178, 178, 178);
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.footer .foot .foot1 .foo .foo1 a:hover{
+    color: white;
+}
+.footer hr{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.footer .info{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+.footer .info .info1{
+    width: 60%;
+}
+.footer .info .info2{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.footer .info .info2 a{
+    color: white;
+}
+.footer .info .info2 a:hover{
+    color: #e0434f;
+}
+@media (max-width: 1300px){
+    .footer .foot{
+        width: 80%;
+    }
+}
+@media (max-width: 1100px){
+    .footer .foot{
+        width: 85%;
+    }
+}
+@media (max-width: 1000px){
+    .footer .foot{
+        width: 90%;
+    }
+    .footer .foot .foot1{
+        width: 50%;
+    }
+    .footer .foot .foot2{
+        width: 50%;
+    }
+    .footer .info .info1{
+        width: 65%;
+    }
+    .footer .info .info1 h4{
+        font-size: 1.2rem;
+    }
+    .footer .info .info2{
+        width: 30%;
+        font-size: 1.2rem;
+    }
+    .footer .info{
+        width: 85%;
+    }
+}
+@media (max-width: 768px){
+    .footer .foot{
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .footer .foot .foot1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer .foot .foot2{
+        width: 100%;
+    }
+    .footer .info .info1{
+        width: 65%;
+    }
+    .footer .info .info2{
+        width: 30%;
+    }
+    .footer .info{
+        width: 90%;
+    }
+}
+
+.disable{
+    background-color: gray !important;
+}

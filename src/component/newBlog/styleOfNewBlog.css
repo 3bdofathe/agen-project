@@ -1,0 +1,88 @@
+
+
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.news .list{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+.news .list .col4{
+    width: 31.5%;
+}
+.news .list .col4 p{
+    margin-top: 5px;
+    font-weight: 500;
+    color: rgb(128, 127, 127);
+}
+.news .list .col4 a{
+    text-decoration: none;
+    color: black;  
+}
+.news .list .col4  h4{
+    font-size: 1.6rem;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.news .list .col4 .mor{
+    color: var(--redcolor);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.news .list .col4 a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 1300px){
+    .news .list{
+        width: 85%;
+    }
+}
+@media (max-width: 1300px){
+    .news .list{
+        width: 85%;
+    }
+}
+@media (max-width: 1100px){
+    .news .list{
+        width: 90%;
+    }
+}
+@media (max-width: 900px){
+    .news .list{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .news .list .col4{
+        width: 47%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 850px){
+    .news .list{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .news .list .col4{
+        width: 47%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 600px){
+    .news .list{
+        flex-wrap: wrap;
+        width: 85%;
+    }
+    .news .list .col4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

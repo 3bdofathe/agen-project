@@ -1,0 +1,89 @@
+
+
+/* start a section with us */
+.with{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.with .us{
+    width: 70%;
+    background-image: url(../../images/backgrounds/cta-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    padding-left: 100px;
+}
+.with .us h1{
+    font-size: var(--fontOurfelid);
+    font-weight: bold;
+    color: var(--redcolor);
+    margin-bottom: 15px;
+}
+.with .us p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.with .us button{
+    width: 23%;
+    padding: 15px 0px 15px 0px ;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: var(--linerColor);
+    border: none;
+    color: white;
+}
+@media (max-width: 1600px){
+    .with .us{
+        width: 80%;
+    }
+}
+@media (max-width: 1130px){
+    .with .us{
+        width: 90%;
+    }
+}
+@media (max-width: 1000px){
+    .with .us{
+        width: 90%;
+        padding-left: 60px;
+    }
+    .with .us h1{
+        font-size: 2.4rem;
+    }
+    .with .us p{
+        font-size: 1.3rem;
+        width: 90%;
+    }
+    .with .us button{
+        width: 30%;
+        font-size: 1.3rem;
+    }
+
+}
+@media (max-width: 600px){
+    .with .us{
+        width: 90%;
+        padding-left: 30px;
+    }
+    .with .us h1{
+        font-size: 2rem;
+    }
+    .with .us p{
+        font-size: 1.1rem;
+        width: 95%;
+    }
+    .with .us button{
+        width: 40%;
+        font-size: 1rem;
+    }
+}
+/* end a section with us */
